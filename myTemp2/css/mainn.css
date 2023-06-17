@@ -1,0 +1,218 @@
+/* start header  */
+* {
+    font-family: 'Heebo', sans-serif;
+    background: #fafafa;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 1vh;
+}
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container .text1 {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 22px;
+    color: rgb(125, 124, 130);
+}
+
+.container .text2 {
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:#424251;
+}
+
+.container .text3 p {
+    color: #cbcbce;
+    margin: 0;
+}
+/* end header  */
+
+/* start body  */
+
+.supervisor {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    align-items: flex-start;
+    border-top: solid 3px #66dfe1;
+    border-radius: 3px;
+    background: white;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: -10px 10px 10px rgb(220,226,235, 0.5);
+    margin-bottom: 20px;
+}
+
+.supervisor .sp1 {
+    margin: 25px 20px 0;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.supervisor .sp2 {
+    text-align: start;
+    background: white;
+    color: #c3c2c4;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+.supervisor img {
+    width: 20%;
+    background: white;
+    margin-top: 20px;
+    margin-left: 225px;
+}
+
+
+.team {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    align-items: flex-start;
+    border-top: solid 3px #bd6265;
+    border-radius: 3px;
+    background: white;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: -10px 10px 10px rgb(220,226,235, 0.5);
+    margin-bottom: 20px;
+}
+
+.team .sp1 {
+    margin: 25px 20px 0;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.team .sp2 {
+    text-align: start;
+    background: white;
+    color: #c3c2c4;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+.team img {
+    width: 20%;
+    background: white;
+    margin-top: 20px;
+    margin-left: 225px;
+}
+
+
+.calculator {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    align-items: flex-start;
+    border-top: solid 3px #6bb7f7;
+    border-radius: 3px;
+    background: white;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: -10px 10px 10px rgb(220,226,235, 0.5);
+    margin-bottom: 20px;
+}
+
+.calculator .sp1 {
+    margin: 25px 20px 0;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calculator .sp2 {
+    text-align: start;
+    background: white;
+    color: #c3c2c4;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+.calculator img {
+    width: 20%;
+    background: white;
+    margin-top: 20px;
+    margin-left: 225px;
+}
+
+
+.karma {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    align-items: flex-start;
+    border-top: solid 3px #eaa63d;
+    border-radius: 3px;
+    background: white;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: -10px 10px 10px rgb(220,226,235, 0.5);
+    margin-bottom: 20px;
+}
+
+.karma .sp1 {
+    margin: 25px 20px 0;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.karma .sp2 {
+    text-align: start;
+    background: white;
+    color: #c3c2c4;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+.karma img {
+    width: 20%;
+    background: white;
+    margin-top: 20px;
+    margin-left: 225px;
+}
+
+table tr td{
+    padding: 15px;
+}
+
+table {
+    margin-top: 60px;
+}
+
+footer {
+    margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: #f1f1f1; */
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    
+}
+/* end body  */
